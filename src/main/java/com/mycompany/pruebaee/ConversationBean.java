@@ -31,7 +31,7 @@ public class ConversationBean implements Serializable {
     counter = 0;
   }
   /*
-   * Esta función inicia la conversación
+   * Esta función inicia la conversación desde que el resultado que recibe la varable es falso
   */
   public void initConversation(){
     if (!FacesContext.getCurrentInstance().isPostback() 
